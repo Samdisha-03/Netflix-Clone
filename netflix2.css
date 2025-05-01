@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.416),rgba(0, 0, 0, 0.356)), url(./banner.jpg);
+    background-color: black;
+    height:calc(100%-62%);
+
+}
+.flex-container{
+    justify-content: space-evenly;
+    max-width: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.flex-container img{
+    width: 300px;
+    height: 130px;
+    background-color: rgba(0,0,0,0);
+    margin-top: auto;
+    position:relative;
+    z-index: 10;
+    margin-right:750px;
+    
+
+
+}
+.nav-container{
+    display: flex;
+    gap: 2px;
+    align-items:center;
+    justify-content: end;
+    margin: auto;
+    max-width: 80vh;
+}
+
+.form-select{
+    width: 150px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.526);
+    color:white;
+    padding: 8px 8px 8px 40px;
+    font-size:16px;
+    font-weight: 400;
+    margin-right: 10px;
+    position: relative;
+    z-index: 10;
+
+
+}
+.form option{
+    color:white;
+}
+#nav button{
+    height: 40px;
+    color: white;
+    padding:0px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.text1,.text2{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.text3{
+    font-weight: 400px;
+    font-size: 1.5rem;
+}
+.text4{
+    font-weight: 400;
+    font-size: 1.25rem;
+
+}
+
+.input-group{
+    max-width: fit-content;
+    padding:auto;
+}
+
+.input-group {
+    width: 100%;
+}
+.input-group ::placeholder{
+    color: white;
+}
+.form-control{
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 7px 101px 8px;
+    
+
+}
+
+.btn{
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.btn::after{
+    content: "\276F";
+    margin-left: 5px;
+}
+.carousel .slide{
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.cards-wrapper{
+    display: flex;
+    padding-left: 140px;
+    gap: 10px;
+}
+.card1{
+    margin: 0.5em;
+    width: 350px;
+    padding-right: 20px;
+    height: fit-content;
+}
+.cards-wrapper img{
+    width: 200px;
+
+}
+.card1 img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+.sepration {
+    height: 7px;
+    background:radial-gradient(51.39% 511.66% at 47.68%-217.91%,#ff9900 0%,#e50914 17.27%,#0e1b4f 79.44%,#000413 100%);
+    
+}
+.container{
+    background-color: black;
+    max-width: 100%;
+
+}
+.container h4{
+    color: white;
+    padding: 50px 0px 0px 130px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap:15px;
+    padding: 10px 50px 50px 50px;
+    max-width:max-content;
+
+}
+.card{
+    width: 360px;
+    height: 280px;
+    background:linear-gradient(rgba(0, 0, 255, 0.214),rgba(128, 0, 128, 0.258));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:8%;
+    gap: 30px;
+    padding: 20px;
+    
+}
+.questions{
+    max-width:92%;
+    padding-left: 9%;
+    padding-top:1%;
+
+}
+.accordion-item{
+    background-color:#343434;
+    border-color: #343434;
+    
+    
+    
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #343434;
+    color: white;
+
+ }
+ .accordion-button:hover{
+    background-color:#3434;
+ }
+ .accordion-button::after{
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 30px;
+    top: 6px;
+    right: 45px;
+ }
+ .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    transform: none;
+    content: "\00d7";
+
+ }
+
+.accordion-header{
+    background-color:#343434;
+    font-weight: 500px;
+
+}
+
+.accordion-button{
+    background-color:#343434; 
+    color: white;
+    font-size:x-large;
+    
+
+}
+
+.accordion-body{
+    color: white;
+    font-style: normal;
+    font-display: center;
+    font-size:x-large;
+}
+
+.footer p{
+    padding: 50px 0px 0px 130px;
+    color:rgba(255,255,255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+
+}
+.footer a{
+    color:rgba(255,255,255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.row{
+    padding: 30px 0px 50px 100px;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer-end{
+    padding: 0px 0px 70px 130px;
+}
+.footer-end p{
+    padding:35px 0px;
+}
+
+
+
+
+
+
+
